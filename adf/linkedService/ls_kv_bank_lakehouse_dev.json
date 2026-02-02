@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "AzureKeyVault",
 		"typeProperties": {
-			"baseUrl": "https://kv-bank-lakehouse-dev-01.vault.azure.net/"
+			"baseUrl": "https://kv-bank-lakehouse-dev.vault.azure.net/"
 		}
 	}
 }
