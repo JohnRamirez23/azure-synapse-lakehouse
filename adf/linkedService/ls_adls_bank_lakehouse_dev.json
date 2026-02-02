@@ -1,0 +1,10 @@
+{
+	"name": "ls_adls_bank_lakehouse_dev",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://stlakehousedevjr23.dfs.core.windows.net/"
+		}
+	}
+}
