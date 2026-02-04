@@ -67,7 +67,13 @@
 				"outputs": [
 					{
 						"referenceName": "ds_adls_raw_bank_transaction",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"p_ingestion_date": {
+								"value": "@concat(\n  'ingestion_date=',\n  formatDateTime(utcNow(), 'yyyy-MM-dd')\n)\n",
+								"type": "Expression"
+							}
+						}
 					}
 				]
 			}
