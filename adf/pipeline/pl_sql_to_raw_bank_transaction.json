@@ -1,0 +1,9 @@
+{
+	"name": "pl_sql_to_raw_bank_transaction",
+	"properties": {
+		"folder": {
+			"name": "raw"
+		},
+		"annotations": []
+	}
+}
