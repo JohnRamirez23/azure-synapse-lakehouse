@@ -70,7 +70,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"p_ingestion_date": {
-								"value": "@concat('ingestion_date=',formatDateTime(utcNow(),'yyyy-MM-dd'))\n",
+								"value": "@formatDateTime(utcNow(),'yyyy-MM-dd')\n",
 								"type": "Expression"
 							}
 						}
